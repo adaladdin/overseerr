@@ -18,21 +18,21 @@ import { defineMessages, useIntl } from 'react-intl';
 
 const messages = defineMessages({
   viewrequest: 'View Request',
-  viewrequest4k: 'View 4K Request',
+  viewrequest4k: 'View NOW Library Request',
   requestmore: 'Request More',
-  requestmore4k: 'Request More in 4K',
+  requestmore4k: 'Request More in NOW Library',
   approverequest: 'Approve Request',
-  approverequest4k: 'Approve 4K Request',
+  approverequest4k: 'Approve NOW Library Request',
   declinerequest: 'Decline Request',
-  declinerequest4k: 'Decline 4K Request',
+  declinerequest4k: 'Decline NOW Library Request',
   approverequests:
     'Approve {requestCount, plural, one {Request} other {{requestCount} Requests}}',
   declinerequests:
     'Decline {requestCount, plural, one {Request} other {{requestCount} Requests}}',
   approve4krequests:
-    'Approve {requestCount, plural, one {4K Request} other {{requestCount} 4K Requests}}',
+    'Approve {requestCount, plural, one {4K Request} other {{requestCount} NOW Library Requests}}',
   decline4krequests:
-    'Decline {requestCount, plural, one {4K Request} other {{requestCount} 4K Requests}}',
+    'Decline {requestCount, plural, one {4K Request} other {{requestCount} NOW Library Requests}}',
 });
 
 interface ButtonOption {

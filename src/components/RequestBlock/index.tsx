@@ -181,7 +181,7 @@ const RequestBlock = ({ request, onUpdate }: RequestBlockProps) => {
             <div className="mr-6 flex items-center text-sm leading-5">
               {request.is4k && (
                 <span className="mr-1">
-                  <Badge badgeType="warning">4K</Badge>
+                  <Badge badgeType="warning">NOW Library</Badge>
                 </span>
               )}
               {request.status === MediaRequestStatus.APPROVED && (

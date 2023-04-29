@@ -11,7 +11,7 @@ import { defineMessages, useIntl } from 'react-intl';
 
 const messages = defineMessages({
   status: '{status}',
-  status4k: '4K {status}',
+  status4k: 'NOW Library {status}',
   playonplex: 'Play on Plex',
   openinarr: 'Open in {arr}',
   managemedia: 'Manage {mediaType}',

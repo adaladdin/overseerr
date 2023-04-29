@@ -15,50 +15,50 @@ export const messages = defineMessages({
   managerequestsDescription:
     'Grant permission to manage media requests. All requests made by a user with this permission will be automatically approved.',
   request: 'Request',
-  requestDescription: 'Grant permission to submit requests for non-4K media.',
+  requestDescription: 'Grant permission to submit requests for non-NOW Library media.',
   requestMovies: 'Request Movies',
   requestMoviesDescription:
-    'Grant permission to submit requests for non-4K movies.',
+    'Grant permission to submit requests for non-NOW Library movies.',
   requestTv: 'Request Series',
   requestTvDescription:
-    'Grant permission to submit requests for non-4K series.',
+    'Grant permission to submit requests for non-NOW Library series.',
   autoapprove: 'Auto-Approve',
   autoapproveDescription:
-    'Grant automatic approval for all non-4K media requests.',
+    'Grant automatic approval for all non-NOW Library media requests.',
   autoapproveMovies: 'Auto-Approve Movies',
   autoapproveMoviesDescription:
-    'Grant automatic approval for non-4K movie requests.',
+    'Grant automatic approval for non-NOW Library movie requests.',
   autoapproveSeries: 'Auto-Approve Series',
   autoapproveSeriesDescription:
-    'Grant automatic approval for non-4K series requests.',
-  autoapprove4k: 'Auto-Approve 4K',
+    'Grant automatic approval for non-NOW Library series requests.',
+  autoapprove4k: 'Auto-Approve NOW Library',
   autoapprove4kDescription:
-    'Grant automatic approval for all 4K media requests.',
-  autoapprove4kMovies: 'Auto-Approve 4K Movies',
+    'Grant automatic approval for all NOW Library media requests.',
+  autoapprove4kMovies: 'Auto-Approve NOW Library Movies',
   autoapprove4kMoviesDescription:
-    'Grant automatic approval for 4K movie requests.',
-  autoapprove4kSeries: 'Auto-Approve 4K Series',
+    'Grant automatic approval for NOW Library movie requests.',
+  autoapprove4kSeries: 'Auto-Approve NOW Library Series',
   autoapprove4kSeriesDescription:
-    'Grant automatic approval for 4K series requests.',
-  request4k: 'Request 4K',
-  request4kDescription: 'Grant permission to submit requests for 4K media.',
-  request4kMovies: 'Request 4K Movies',
+    'Grant automatic approval for NOW Library series requests.',
+  request4k: 'Request NOW Library',
+  request4kDescription: 'Grant permission to submit requests for NOW Library media.',
+  request4kMovies: 'Request NOW Library Movies',
   request4kMoviesDescription:
-    'Grant permission to submit requests for 4K movies.',
-  request4kTv: 'Request 4K Series',
-  request4kTvDescription: 'Grant permission to submit requests for 4K series.',
+    'Grant permission to submit requests for NOW Library movies.',
+  request4kTv: 'Request NOW Library Series',
+  request4kTvDescription: 'Grant permission to submit requests for NOW Library series.',
   advancedrequest: 'Advanced Requests',
   advancedrequestDescription:
     'Grant permission to modify advanced media request options.',
   autorequest: 'Auto-Request',
   autorequestDescription:
-    'Grant permission to automatically submit requests for non-4K media via Plex Watchlist.',
+    'Grant permission to automatically submit requests for non-NOW Library media via Plex Watchlist.',
   autorequestMovies: 'Auto-Request Movies',
   autorequestMoviesDescription:
-    'Grant permission to automatically submit requests for non-4K movies via Plex Watchlist.',
+    'Grant permission to automatically submit requests for non-NOW Library movies via Plex Watchlist.',
   autorequestSeries: 'Auto-Request Series',
   autorequestSeriesDescription:
-    'Grant permission to automatically submit requests for non-4K series via Plex Watchlist.',
+    'Grant permission to automatically submit requests for non-NOW Library series via Plex Watchlist.',
   viewrequests: 'View Requests',
   viewrequestsDescription:
     'Grant permission to view media requests submitted by other users.',

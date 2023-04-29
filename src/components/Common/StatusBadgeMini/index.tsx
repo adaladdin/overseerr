@@ -63,7 +63,7 @@ const StatusBadgeMini = ({
       }`}
     >
       <div className={badgeStyle.join(' ')}>{indicatorIcon}</div>
-      {is4k && <span className="pl-1 pr-2 text-gray-200">4K</span>}
+      {is4k && <span className="pl-1 pr-2 text-gray-200">NOW Library</span>}
     </div>
   );
 };

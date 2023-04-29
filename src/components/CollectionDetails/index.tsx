@@ -24,7 +24,7 @@ const messages = defineMessages({
   overview: 'Overview',
   numberofmovies: '{count} Movies',
   requestcollection: 'Request Collection',
-  requestcollection4k: 'Request Collection in 4K',
+  requestcollection4k: 'Request Collection in NOW Library',
 });
 
 interface CollectionDetailsProps {

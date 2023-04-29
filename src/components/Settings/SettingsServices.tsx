@@ -22,12 +22,12 @@ const messages = defineMessages({
   radarrsettings: 'Radarr Settings',
   sonarrsettings: 'Sonarr Settings',
   serviceSettingsDescription:
-    'Configure your {serverType} server(s) below. You can connect multiple {serverType} servers, but only two of them can be marked as defaults (one non-4K and one 4K). Administrators are able to override the server used to process new requests prior to approval.',
+    'Configure your {serverType} server(s) below. You can connect multiple {serverType} servers, but only two of them can be marked as defaults (one non-NOW Library and one NOW Library). Administrators are able to override the server used to process new requests prior to approval.',
   deleteserverconfirm: 'Are you sure you want to delete this server?',
   ssl: 'SSL',
   default: 'Default',
-  default4k: 'Default 4K',
-  is4k: '4K',
+  default4k: 'Default NOW Library',
+  is4k: 'NOW Library',
   address: 'Address',
   activeProfile: 'Active Profile',
   addradarr: 'Add Radarr Server',
@@ -35,9 +35,9 @@ const messages = defineMessages({
   noDefaultServer:
     'At least one {serverType} server must be marked as default in order for {mediaType} requests to be processed.',
   noDefaultNon4kServer:
-    'If you only have a single {serverType} server for both non-4K and 4K content (or if you only download 4K content), your {serverType} server should <strong>NOT</strong> be designated as a 4K server.',
+    'If you only have a single {serverType} server for both non-NOW Library and NOW Library content (or if you only download NOW Library content), your {serverType} server should <strong>NOT</strong> be designated as a NOW Library server.',
   noDefault4kServer:
-    'A 4K {serverType} server must be marked as default in order to enable users to submit 4K {mediaType} requests.',
+    'A NOW Library {serverType} server must be marked as default in order to enable users to submit NOW Library {mediaType} requests.',
   mediaTypeMovie: 'movie',
   mediaTypeSeries: 'series',
   deleteServer: 'Delete {serverType} Server',

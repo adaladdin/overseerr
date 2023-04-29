@@ -22,12 +22,12 @@ const messages = defineMessages({
   requestadmin: 'This request will be approved automatically.',
   requestSuccess: '<strong>{title}</strong> requested successfully!',
   requestcollectiontitle: 'Request Collection',
-  requestcollection4ktitle: 'Request Collection in 4K',
+  requestcollection4ktitle: 'Request Collection in NOW Library',
   requesterror: 'Something went wrong while submitting the request.',
   selectmovies: 'Select Movie(s)',
   requestmovies: 'Request {count} {count, plural, one {Movie} other {Movies}}',
   requestmovies4k:
-    'Request {count} {count, plural, one {Movie} other {Movies}} in 4K',
+    'Request {count} {count, plural, one {Movie} other {Movies}} in NOW Library',
 });
 
 interface RequestModalProps extends React.HTMLAttributes<HTMLDivElement> {

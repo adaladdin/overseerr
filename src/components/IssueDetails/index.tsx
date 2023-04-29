@@ -44,9 +44,9 @@ const messages = defineMessages({
   reopenissueandcomment: 'Reopen with Comment',
   issuepagetitle: 'Issue',
   playonplex: 'Play on Plex',
-  play4konplex: 'Play in 4K on Plex',
+  play4konplex: 'Play in NOW Library on Plex',
   openinarr: 'Open in {arr}',
-  openin4karr: 'Open in 4K {arr}',
+  openin4karr: 'Open in NOW Library {arr}',
   toasteditdescriptionsuccess: 'Issue description edited successfully!',
   toasteditdescriptionfailed:
     'Something went wrong while editing the issue description.',
